@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 720">
+  <defs>
+    <linearGradient id="sea" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#b9c9b4"/>
+      <stop offset="1" stop-color="#8fa99e"/>
+    </linearGradient>
+    <linearGradient id="land" x1="0" x2=".8" y1="0" y2="1">
+      <stop stop-color="#e6d8ad"/>
+      <stop offset=".5" stop-color="#d8c694"/>
+      <stop offset="1" stop-color="#c5b88b"/>
+    </linearGradient>
+    <pattern id="grain" width="31" height="27" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="5" r=".8" fill="#514832" opacity=".22"/>
+      <circle cx="23" cy="19" r="1" fill="#f3e8c5" opacity=".5"/>
+      <path d="M12 14h3m12-8h2" stroke="#847557" opacity=".17" stroke-width=".8"/>
+    </pattern>
+    <g id="mountain" fill="#b5ac89" stroke="#706e57" stroke-width="1.6" stroke-linejoin="round">
+      <path d="M-23 13 0-21 22 13Z"/>
+      <path d="m-9 13 9-34 7 19 5 4 10 11" fill="none" stroke="#827c61"/>
+      <path d="m-6-12 6-9 5 13-5-3-4 3Z" fill="#e6debf" stroke="none"/>
+    </g>
+    <g id="tree" stroke="#5b735c" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M0 10V18" fill="none" stroke="#65563f" stroke-width="2"/>
+      <path d="M-9 11 0-13 9 11Z" fill="#819274"/>
+      <path d="M-6 5 0-12 6 5Z" fill="#9cab87" stroke="none"/>
+    </g>
+    <g id="keep" stroke="#655d4a" stroke-width="2" stroke-linejoin="round">
+      <path d="M-20 15V-3h8v-9h24v9h8v18Z" fill="#d7c8a4"/>
+      <path d="M-15-3v-6l5-5 5 5v6M5-3v-6l5-5 5 5v6" fill="#867c60"/>
+      <path d="M-5 15V5a5 5 0 0 1 10 0v10" fill="#756c58"/>
+      <path d="M0-12v-8l9 3-9 3" fill="#9b5948"/>
+    </g>
+  </defs>
+  <rect width="800" height="720" fill="url(#sea)"/>
+  <g fill="none" stroke="#dbe1cb" stroke-width="1.5" opacity=".55">
+    <path d="M36 129q24-8 48 0m-53 8q28-8 58 0M682 250q28-8 56 0m-63 8q34-9 69 0M39 523q29-8 58 0m-65 8q36-9 71 0M674 582q26-8 52 0m-58 8q32-8 64 0"/>
+    <path d="M78 638q23-7 46 0m-51 8q28-8 56 0M695 80q23-7 46 0m-51 8q28-8 56 0"/>
+  </g>
+  <path d="M100 147 83 120 98 91 127 83 139 55 170 39 205 48 229 30 264 42 277 67 310 72 331 56 359 68 381 52 415 62 433 92 469 91 489 70 516 76 536 101 567 93 591 110 619 99 645 122 681 120 698 144 728 157 737 187 718 211 730 241 713 264 728 291 712 315 723 342 704 365 720 395 705 417 719 442 707 469 720 495 700 513 705 540 684 552 673 579 645 580 631 603 601 599 580 623 553 618 535 640 505 638 491 663 461 655 439 676 409 662 383 679 354 658 328 672 305 654 276 664 258 644 229 646 212 627 182 630 171 605 143 605 130 582 108 571 111 545 90 531 98 506 82 485 95 460 78 437 92 411 80 385 97 361 86 335 101 311 89 287 105 264 95 241 110 219 93 196 109 173Z" fill="url(#land)" stroke="#778873" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M100 147 83 120 98 91 127 83 139 55 170 39 205 48 229 30 264 42 277 67 310 72 331 56 359 68 381 52 415 62 433 92 469 91 489 70 516 76 536 101 567 93 591 110 619 99 645 122 681 120 698 144 728 157 737 187 718 211 730 241 713 264 728 291 712 315 723 342 704 365 720 395 705 417 719 442 707 469 720 495 700 513 705 540 684 552 673 579 645 580 631 603 601 599 580 623 553 618 535 640 505 638 491 663 461 655 439 676 409 662 383 679 354 658 328 672 305 654 276 664 258 644 229 646 212 627 182 630 171 605 143 605 130 582 108 571 111 545 90 531 98 506 82 485 95 460 78 437 92 411 80 385 97 361 86 335 101 311 89 287 105 264 95 241 110 219 93 196 109 173Z" fill="none" stroke="#f4e8c6" stroke-width="2" opacity=".8"/>
+  <path d="M422 82q-6 40 20 62t-1 48q-21 28-2 53t-2 50q-21 28-5 55t-3 52q-19 31 1 59t-4 49q-18 25-2 48t-4 53" fill="none" stroke="#9eaa8b" stroke-width="8" opacity=".75"/>
+  <path d="M422 82q-6 40 20 62t-1 48q-21 28-2 53t-2 50q-21 28-5 55t-3 52q-19 31 1 59t-4 49q-18 25-2 48t-4 53" fill="none" stroke="#d8e1c4" stroke-width="3" opacity=".9"/>
+  <g opacity=".8">
+    <use href="#mountain" transform="translate(166 107) scale(.8)"/>
+    <use href="#mountain" transform="translate(202 111)"/>
+    <use href="#mountain" transform="translate(238 101) scale(.85)"/>
+    <use href="#mountain" transform="translate(273 117) scale(.75)"/>
+    <use href="#mountain" transform="translate(540 141) scale(.8)"/>
+    <use href="#mountain" transform="translate(574 133)"/>
+    <use href="#mountain" transform="translate(608 145) scale(.78)"/>
+    <use href="#mountain" transform="translate(316 598) scale(.75)"/>
+    <use href="#mountain" transform="translate(347 586) scale(.95)"/>
+    <use href="#mountain" transform="translate(381 598) scale(.7)"/>
+  </g>
+  <g opacity=".9">
+    <use href="#tree" x="170" y="350"/><use href="#tree" x="192" y="334"/><use href="#tree" x="215" y="356"/>
+    <use href="#tree" x="237" y="337"/><use href="#tree" x="258" y="358"/><use href="#tree" x="180" y="379"/>
+    <use href="#tree" x="207" y="385"/><use href="#tree" x="231" y="378"/><use href="#tree" x="257" y="386"/>
+    <use href="#tree" x="518" y="342"/><use href="#tree" x="542" y="326"/><use href="#tree" x="566" y="347"/>
+    <use href="#tree" x="590" y="329"/><use href="#tree" x="614" y="351"/><use href="#tree" x="535" y="371"/>
+    <use href="#tree" x="561" y="383"/><use href="#tree" x="586" y="374"/><use href="#tree" x="611" y="382"/>
+  </g>
+  <use href="#keep" x="175" y="258"/>
+  <use href="#keep" x="628" y="258" transform="translate(0 10) scale(1)"/>
+  <use href="#keep" x="534" y="625" transform="translate(0 0) scale(.9)"/>
+  <g fill="#746548" font-family="Georgia, serif" text-anchor="middle" opacity=".8">
+    <text x="332" y="65" font-size="17" letter-spacing="3">LAS TIERRAS DEL REINO</text>
+    <text x="207" y="425" font-size="13" letter-spacing="2">BOSQUE ANTIGUO</text>
+    <text x="573" y="413" font-size="13" letter-spacing="2">BOSQUE DE NIEBLA</text>
+    <text x="430" y="708" font-size="12" letter-spacing="3">UN VIAJE HACIA EL TRONO</text>
+  </g>
+  <g transform="translate(745 634)" fill="none" stroke="#5f6e5c" stroke-width="1.6" opacity=".75">
+    <circle r="30"/><circle r="23"/><path d="M0-38v76m-38-38h76M0-27 5 0 0 27-5 0ZM-27 0 0-5 27 0 0 5Z"/>
+    <text x="0" y="-43" text-anchor="middle" fill="#5f6e5c" stroke="none" font-family="Georgia, serif" font-size="14">N</text>
+  </g>
+  <rect width="800" height="720" fill="url(#grain)" pointer-events="none"/>
+  <rect x="8" y="8" width="784" height="704" rx="3" fill="none" stroke="#755f43" stroke-width="2" opacity=".5"/>
+  <rect x="15" y="15" width="770" height="690" rx="2" fill="none" stroke="#eadcba" stroke-width="1.5" opacity=".8"/>
+</svg>
